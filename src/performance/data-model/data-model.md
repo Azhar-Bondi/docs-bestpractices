@@ -20,7 +20,7 @@ Create indexes for the most commonly used attributes to improve the overall quer
 
 Identify all attributes that are used in query conditions and join expressions in your slower queries. These are the best candidates to be indexed.
 
-The overall performance improvement of the query will differ significantly depending on the attribute data type and if it's indexed or not. Indexing the most sparse attribute values, like dates or small texts, will provide greater performance improvement, then say, a Boolean attribute. This will always depend on the query itself, and how sparse the data is on the entity
+The overall performance improvement of the query will differ significantly depending on the attribute data type and if it's indexed or not. Indexing the most sparse attribute values, like dates or small texts, will provide greater performance improvement, than say, a Boolean attribute. This will always depend on the query itself, and how sparse the data is on the entity
 
 ### Importance
 
